@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.signup-box, .login-box {
+  text-align: center;
+  background-color: rgb(250, 246, 244);    
+  padding: 40px;    
+  position: absolute;    
+  left: 0;    
+  right: 0;    
+  top: 0;    
+  bottom: 0;    
+  margin: auto;    
+  max-width: 400px;    
+  width: 90%;    
+  height: fit-content;    
+  overflow: auto;     
+  box-shadow: 0 8px 16px 0 rgba(102, 70, 70, 0.2);
+}
+
+.signup-box:hover, .login-box:hover {    
+  box-shadow: 0 8px 16px 0 rgba(253, 4, 4, 0.2);
+}
+
+.error-message {
+  color: red;
+}
